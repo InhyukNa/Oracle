@@ -1,0 +1,37 @@
+SQL> select ename, job from emp;
+
+ENAME      JOB                                                                  
+---------- ---------                                                            
+SMITH      CLERK                                                                
+ALLEN      SALESMAN                                                             
+WARD       SALESMAN                                                             
+JONES      MANAGER                                                              
+MARTIN     SALESMAN                                                             
+BLAKE      MANAGER                                                              
+CLARK      MANAGER                                                              
+SCOTT      ANALYST                                                              
+KING       PRESIDENT                                                            
+TURNER     SALESMAN                                                             
+ADAMS      CLERK                                                                
+
+ENAME      JOB                                                                  
+---------- ---------                                                            
+JAMES      CLERK                                                                
+FORD       ANALYST                                                              
+MILLER     CLERK                                                                
+
+14 개의 행이 선택되었습니다.
+
+SQL> selct * from dept
+SP2-0734: "selct * fr..."(으)로 시작되는 알 수 없는 명령 - 나머지 줄은 무시되었습니다.
+SQL> select * from dept
+  2  ;
+
+    DEPTNO DNAME          LOC                                                   
+---------- -------------- -------------                                         
+        10 ACCOUNTING     NEW YORK                                              
+        20 RESEARCH       DALLAS                                                
+        30 SALES          CHICAGO                                               
+        40 OPERATIONS     BOSTON                                                
+
+SQL> spool off
